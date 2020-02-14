@@ -47,7 +47,7 @@ allprojects {
         gradleVersion = "5.6.4"
     }
 }
-    
+
 subprojects {
 
     repositories {
@@ -62,10 +62,6 @@ subprojects {
 
         maven {
             url = uri("https://kotlin.bintray.com/kotlinx")
-        }
-
-        maven {
-            url = uri("http://repo.maven.apache.org/maven2")
         }
     }
 
